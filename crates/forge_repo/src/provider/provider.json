@@ -766,6 +766,16 @@
         "input_modalities": ["text", "image"]
       },
       {
+        "id": "claude-opus-5-5",
+        "name": "Claude Opus 5.5",
+        "description": "For long-running agentic coding and knowledge work",
+        "context_length": 1000000,
+        "tools_supported": true,
+        "supports_parallel_tool_calls": true,
+        "supports_reasoning": true,
+        "input_modalities": ["text", "image"]
+      },
+      {
         "id": "claude-opus-5",
         "name": "Claude Opus 5",
         "description": "Thoughtful and proactive model approaching frontier intelligence at half the price",
@@ -789,6 +799,16 @@
         "id": "claude-opus-4-7",
         "name": "Claude Opus 4.7",
         "description": "Most intelligent model for building agents and coding",
+        "context_length": 1000000,
+        "tools_supported": true,
+        "supports_parallel_tool_calls": true,
+        "supports_reasoning": true,
+        "input_modalities": ["text", "image"]
+      },
+      {
+        "id": "claude-sonnet-5-5",
+        "name": "Claude Sonnet 5.5",
+        "description": "The best combination of speed and intelligence",
         "context_length": 1000000,
         "tools_supported": true,
         "supports_parallel_tool_calls": true,
